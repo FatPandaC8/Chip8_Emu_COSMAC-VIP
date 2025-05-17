@@ -1,0 +1,1 @@
+g++ src/*.cpp -Iinclude $(sdl2-config --cflags --libs) -ldl -o chip8
